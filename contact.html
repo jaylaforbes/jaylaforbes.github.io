@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Portfolio | Contact</title>
+  <meta name="description" content="Contact page with a form, LinkedIn, GitHub, email, and location details for Nassau, Bahamas.">
+  <meta name="theme-color" content="#0b1f3a">
+  <link rel="canonical" href="./contact.html">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="./index.html" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 16V8l7-4 7 4v8l-7 4-7-4Z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 10l4 2 4-2"></path>
+          </svg>
+        </span>
+        Engineering Portfolio
+      </a>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <nav class="nav-menu" id="nav-menu" data-nav-menu aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About Me</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./resume.html">Resume</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" data-theme-toggle type="button" aria-label="Toggle dark mode"></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="site-main">
+    <section class="page-hero">
+      <div class="page-hero-card reveal">
+        <span class="eyebrow">Contact</span>
+        <h1>Let’s connect.</h1>
+        <p>Use the form below, or reach out through LinkedIn, GitHub, email, or location details listed alongside it.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="grid two">
+        <article class="form-card">
+          <h3>Contact form</h3>
+          <p class="lead">This front-end form is ready for backend integration later. For now, it provides a polished user experience and validation-safe structure.</p>
+          <form data-contact-form>
+            <div class="form-grid">
+              <div class="field">
+                <label class="label" for="name">Name</label>
+                <input class="form-control" id="name" name="name" type="text" placeholder="Your name" required>
+              </div>
+              <div class="field">
+                <label class="label" for="email">Email</label>
+                <input class="form-control" id="email" name="email" type="email" placeholder="you@example.com" required>
+              </div>
+              <div class="field full">
+                <label class="label" for="subject">Subject</label>
+                <input class="form-control" id="subject" name="subject" type="text" placeholder="Project inquiry" required>
+              </div>
+              <div class="field full">
+                <label class="label" for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" placeholder="Write your message here" required></textarea>
+              </div>
+            </div>
+            <div class="cta-row">
+              <button class="btn btn-primary" type="submit">Send Message</button>
+              <a class="btn btn-secondary" href="mailto:your.email@example.com">Email Directly</a>
+            </div>
+            <p class="form-status" data-form-status aria-live="polite"></p>
+          </form>
+        </article>
+
+        <aside class="contact-panel">
+          <h3>Contact details</h3>
+          <ul class="contact-list">
+            <li>
+              <strong>LinkedIn</strong>
+              <a href="https://www.linkedin.com/in/your-name" target="_blank" rel="noreferrer">linkedin.com/in/your-name</a>
+            </li>
+            <li>
+              <strong>GitHub</strong>
+              <a href="https://github.com/your-name" target="_blank" rel="noreferrer">github.com/your-name</a>
+            </li>
+            <li>
+              <strong>Email</strong>
+              <a href="mailto:your.email@example.com">your.email@example.com</a>
+            </li>
+            <li>
+              <strong>Location</strong>
+              <span>Nassau, Bahamas</span>
+            </li>
+          </ul>
+          <div class="accent-box" style="margin-top: 1rem;">
+            <strong>Availability</strong>
+            <p class="lead">Open to academic networking, collaboration, and opportunities that help build experience in engineering.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-row">
+      <span>© <span data-year></span> Your Name</span>
+      <span>Contact page</span>
+    </div>
+  </footer>
+  <button class="icon-btn scroll-top" data-scroll-top type="button" aria-label="Scroll to top">↑</button>
+  <script src="./assets/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Portfolio | Resume</title>
+  <meta name="description" content="View the embedded resume PDF, download the file, and review certifications and awards.">
+  <meta name="theme-color" content="#0b1f3a">
+  <link rel="canonical" href="./resume.html">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body data-page="resume">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="./index.html" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 16V8l7-4 7 4v8l-7 4-7-4Z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 10l4 2 4-2"></path>
+          </svg>
+        </span>
+        Engineering Portfolio
+      </a>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <nav class="nav-menu" id="nav-menu" data-nav-menu aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About Me</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./resume.html">Resume</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" data-theme-toggle type="button" aria-label="Toggle dark mode"></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="site-main">
+    <section class="page-hero">
+      <div class="page-hero-card reveal">
+        <span class="eyebrow">Resume</span>
+        <h1>Embedded PDF view with a direct download button.</h1>
+        <p>This page keeps the resume easy to review inside the browser while still providing a clean download path for sharing or offline access.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="./assets/resume.pdf" download>Download Resume</a>
+          <a class="btn btn-secondary" href="./assets/resume.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="grid two">
+        <article class="resume-panel">
+          <h3>Embedded PDF viewer</h3>
+          <p class="lead">The viewer below loads the local PDF file so the page works without external services.</p>
+          <iframe class="resume-viewer" src="./assets/resume.pdf" title="Resume PDF" loading="lazy"></iframe>
+          <p class="inline-note">If the PDF preview is blocked by a browser setting, use the download or open link above.</p>
+        </article>
+        <div class="grid" style="gap: 1rem;">
+          <article class="resume-panel">
+            <h3>Certifications</h3>
+            <div class="stack">
+              <span class="pill">Engineering Fundamentals</span>
+              <span class="pill">Technical Drawing</span>
+              <span class="pill">Microsoft Excel</span>
+              <span class="pill">Python Basics</span>
+            </div>
+          </article>
+          <article class="resume-panel">
+            <h3>Awards</h3>
+            <p class="lead">Placeholder awards area for honors, scholarships, or academic recognition.</p>
+            <ul class="contact-list">
+              <li><strong>Dean's List</strong><span>Academic recognition placeholder</span></li>
+              <li><strong>Project Excellence Award</strong><span>Engineering showcase placeholder</span></li>
+            </ul>
+          </article>
+          <article class="resume-panel">
+            <h3>Profile summary</h3>
+            <p class="lead">Reliable engineering student with strong interest in chemical engineering, problem solving, technical communication, and design tools.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-row">
+      <span>© <span data-year></span> Your Name</span>
+      <span>Resume page</span>
+    </div>
+  </footer>
+  <button class="icon-btn scroll-top" data-scroll-top type="button" aria-label="Scroll to top">↑</button>
+  <script src="./assets/script.js" defer></script>
+</body>
+</html>

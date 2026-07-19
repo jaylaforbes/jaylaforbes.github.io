@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Portfolio | Projects</title>
+  <meta name="description" content="Explore CAD, Arduino, Python, MATLAB, research, and engineering report projects in a modern responsive gallery.">
+  <meta name="theme-color" content="#0b1f3a">
+  <link rel="canonical" href="./projects.html">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body data-page="projects">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="./index.html" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 16V8l7-4 7 4v8l-7 4-7-4Z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 10l4 2 4-2"></path>
+          </svg>
+        </span>
+        Engineering Portfolio
+      </a>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <nav class="nav-menu" id="nav-menu" data-nav-menu aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About Me</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./resume.html">Resume</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" data-theme-toggle type="button" aria-label="Toggle dark mode"></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="site-main">
+    <section class="page-hero">
+      <div class="page-hero-card reveal">
+        <span class="eyebrow">Projects</span>
+        <h1>Selected engineering work with clear placeholders for future portfolio growth.</h1>
+        <p>Each card includes a project image, summary, technologies used, and buttons for GitHub and a live demo. Replace the placeholder links and content as your work evolves.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-heading">
+        <div>
+          <h2>Project gallery</h2>
+          <p>Cards are rendered from a single JavaScript data source so they stay easy to update.</p>
+        </div>
+      </div>
+      <div class="grid three" data-projects-grid></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-row">
+      <span>© <span data-year></span> Your Name</span>
+      <span>Project showcase</span>
+    </div>
+  </footer>
+  <button class="icon-btn scroll-top" data-scroll-top type="button" aria-label="Scroll to top">↑</button>
+  <script src="./assets/script.js" defer></script>
+</body>
+</html>

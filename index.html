@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Portfolio | Home</title>
+  <meta name="description" content="Modern engineering portfolio for an engineering student and future chemical engineer. Explore projects, skills, resume, and contact details.">
+  <meta name="theme-color" content="#0b1f3a">
+  <link rel="canonical" href="./index.html">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="./index.html" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 16V8l7-4 7 4v8l-7 4-7-4Z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 10l4 2 4-2"></path>
+          </svg>
+        </span>
+        Engineering Portfolio
+      </a>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <nav class="nav-menu" id="nav-menu" data-nav-menu aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About Me</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./resume.html">Resume</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" data-theme-toggle type="button" aria-label="Toggle dark mode"></button>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="site-main">
+    <section class="hero">
+      <div class="hero-grid reveal">
+        <canvas class="hero-canvas" data-particles aria-hidden="true"></canvas>
+        <div class="hero-copy">
+          <span class="eyebrow">Minimalist engineering portfolio</span>
+          <h1>Your Name</h1>
+          <p class="typed-line" aria-live="polite" data-typing></p>
+          <p class="subtitle">Engineering Student | Future Chemical Engineer</p>
+          <p class="subtitle">I’m an aspiring chemical engineer building a portfolio around process design, analysis, documentation, and hands-on problem solving. This site highlights academic work, technical projects, and the skills I’m developing for a future in engineering.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="./projects.html">View Projects</a>
+            <a class="btn btn-secondary" href="./assets/resume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-side">
+          <div class="profile-card">
+            <div class="profile-stats">
+              <div class="stat">
+                <span>Focus</span>
+                <strong>Chemical Engineering</strong>
+              </div>
+              <div class="stat">
+                <span>Based in</span>
+                <strong>Nassau, Bahamas</strong>
+              </div>
+              <div class="stat">
+                <span>Working style</span>
+                <strong>Structured + Curious</strong>
+              </div>
+            </div>
+          </div>
+          <div class="accent-box">
+            <strong>Current direction</strong>
+            <p class="lead">Blending technical drawing, data analysis, and practical lab thinking into clear engineering solutions.</p>
+          </div>
+        </div>
+        <div class="hero-media" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-heading">
+        <div>
+          <h2>What I bring</h2>
+          <p>A concise snapshot of the engineering mindset behind the portfolio.</p>
+        </div>
+      </div>
+      <div class="grid three">
+        <article class="info-card">
+          <h3>Analytical thinking</h3>
+          <p class="lead">I approach problems by breaking them into measurable parts, then using data to support decisions.</p>
+        </article>
+        <article class="info-card">
+          <h3>Design discipline</h3>
+          <p class="lead">From CAD layouts to technical reports, I prioritize clarity, organization, and practical execution.</p>
+        </article>
+        <article class="info-card">
+          <h3>Team collaboration</h3>
+          <p class="lead">I enjoy working in groups where communication, accountability, and steady iteration matter.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-row">
+      <span>© <span data-year></span> Your Name</span>
+      <span>Built with HTML, CSS, and JavaScript</span>
+    </div>
+  </footer>
+  <button class="icon-btn scroll-top" data-scroll-top type="button" aria-label="Scroll to top">↑</button>
+  <script src="./assets/script.js" defer></script>
+</body>
+</html>
